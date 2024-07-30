@@ -1,8 +1,30 @@
-# React + Vite
+# Copywriting Office Management Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+This React-based application is designed to manage a copywriting office, providing a platform for scheduling appointments for various copywriting services. It features separate interfaces for administrators (office managers) and regular users (clients), with a secure login system and responsive design for optimal user experience across devices.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+
+- **User Authentication**: Secure login system for office staff and clients
+- **Role-Based Access Control**: 
+  - Admin Dashboard: Full access to appointment management and service offerings
+  - Client Dashboard: Ability to schedule and manage personal appointments
+- **Appointment Scheduling**: Easy-to-use interface for booking copywriting services
+- **Service Management**: Admins can add, edit, or remove copywriting services offered
+- **Responsive Design**: Built with Material-UI for a consistent look across devices
+- **State Management**: Utilizes MobX for efficient handling of appointment data
+
+## Usage
+
+### Admin Dashboard
+- Manage all client appointments
+- Add or modify copywriting services offered
+- View and analyze office performance metrics
+
+### Client Dashboard
+- Schedule new appointments for copywriting services
+- View and manage personal appointment history
+- Access information about available copywriting services
+
+## Technologies
